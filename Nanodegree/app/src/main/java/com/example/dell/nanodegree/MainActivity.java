@@ -1,6 +1,7 @@
 package com.example.dell.nanodegree;
 
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -38,7 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id=v.getId();
         String s="This button will launch ";
         if(id==R.id.button_movie) {
-            Toast.makeText(this, s+getResources().getString(R.string.popular_movies)+" app", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, s+getResources().getString(R.string.popular_movies)+" app", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(this, PopularMovies.class));
         }
         else if(id==R.id.button_stock) {
             Toast.makeText(this, s+getResources().getString(R.string.stock_hawk)+" app", Toast.LENGTH_SHORT).show();

@@ -6,4 +6,16 @@
     <string name="make_your_app_material">Make Your App Material</string>
     <string name="go_ubiquitous">Go Ubiquitous</string>
     <string name="capstone">Capstone</string>
+    <string name="release_date">Release Date</string>
+    <string name="rating">Rating</string>
+    <string name="votes">Votes</string>
+    <string name="overview">Synopsis</string>
+    <string name="action_popular">Popular</string>
+    <string name="action_top_rated">Top Rated</string>
+    <string name="action_upcoming">Upcoming</string>
+    <string name="movie_type">MovieType</string>
+    <string name="parcelabel_movie_key">Parcelabel Movie Key</string>
+    <!-- Place your TMDb API key here-->
+    <string name="movie_key" translatable="false">PLACE_YOUR_MOVIE_API_KEY_HERE</string>
+    <string name="app_main_page">My Nanodegree Apps</string>
 </resources>
